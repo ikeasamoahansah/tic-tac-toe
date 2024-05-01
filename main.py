@@ -20,9 +20,11 @@ def main() -> None:
 
 
         screen.fill("orange")
-        pygame.draw.rect(screen, color="white", rect=(50, 100, 150, 150))
-        pygame.draw.rect(screen, color="white", rect=(300, 100, 150, 150))
-        pygame.draw.rect(screen, color="white", rect=(550, 100, 150, 150))
+        # pygame.draw.rect(screen, color="white", rect=(50, 100, 150, 150))
+        # pygame.draw.rect(screen, color="white", rect=(300, 100, 150, 150))
+        # pygame.draw.rect(screen, color="white", rect=(550, 100, 150, 150))
+
+        
 
 
         # Render game
