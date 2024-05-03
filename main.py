@@ -52,14 +52,12 @@ def main() -> None:
             if event.type == pygame.QUIT:
                 running = False
 
-            # if event.type == pygame.MOUSEBUTTONDOWN:
-            #     mouse_pos = event.pos  # gets mouse position
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                mouse_pos = event.pos  # gets mouse position
 
-            #     # checks if mouse position is over the button
+                # checks if mouse position is over the button
 
-            #     if button.collidepoint(mouse_pos):
-            #         # prints current location of mouse
-            #         print(f'button was pressed at {mouse_pos}')
+                print(mouse_pos)
 
 
         screen.fill("black")
